@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'font4fcdd97fadc3a1d9887f816f2aa67f1d';
+        
+        src:    url('https://nomail.com.ua/files/eot/4fcdd97fadc3a1d9887f816f2aa67f1d.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/4fcdd97fadc3a1d9887f816f2aa67f1d.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/4fcdd97fadc3a1d9887f816f2aa67f1d.woff2') format('woff2');
+    }
+    
+@font-face { 
+    font-family: 'CircularStd-Medium';  
+    src: local('CircularStd-Medium'), 
+    url('https://nomail.com.ua/files/woff/4fcdd97fadc3a1d9887f816f2aa67f1d.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'font6baed2bf580964bec9559ad83caee43d';
+        
+        src:    url('https://nomail.com.ua/files/eot/6baed2bf580964bec9559ad83caee43d.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/6baed2bf580964bec9559ad83caee43d.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/6baed2bf580964bec9559ad83caee43d.woff2') format('woff2');
+    }
+    
+@font-face { font-family: 'CircularStd-Bold';  src: local('CircularStd-Bold'), url('https://nomail.com.ua/files/woff/6baed2bf580964bec9559ad83caee43d.woff') format('woff'); }
+@font-face {
+    font-family: 'font6365c40aa59d462f1cc52ccce9635cb4';
+        
+        src:    url('https://nomail.com.ua/files/eot/6365c40aa59d462f1cc52ccce9635cb4.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/6365c40aa59d462f1cc52ccce9635cb4.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/6365c40aa59d462f1cc52ccce9635cb4.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'CircularStd-Book';  src: local('CircularStd-Book'), url('https://nomail.com.ua/files/woff/6365c40aa59d462f1cc52ccce9635cb4.woff') format('woff'); }
+    
+.header{
+    height:104px;
+    background-color: white;
+    margin: 0px auto;
+    max-width: 100%;
+    display:flex;
+    align-items: center;
+}
+.navlink{
+    color:black;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+
+}
+.menu{
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 64px;
+}
+.logo{
+    font-size: 50px;
+}
+.greenbox{
+    height:48px;
+    background-color:rgb(140,235,107);
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.text2{
+    padding: auto;
+}
+.content{
+    padding-top: 56px;
+    margin-left: 64px;
+    margin-right: 64px;
+    display:flex;
+}
+.back{
+    height:25px;
+    width: 725px;
+    font-family: 'CircularStd-Book';
+}
+.back img{
+    padding-right: 16px;
+}
+body{
+    margin: 0 auto;
+}
+.row{
+    flex-direction: row;
+}
+.coloumn{
+    flex-direction: column;
+}
+.contentbox{
+    padding-top: 40px;
+    width: 725px;
+    display: flex;
+}
+.bold{
+    font-size: 40px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.contentbox img{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.buttons{
+    padding-bottom: 24px;
+}
+.buttons img{
+    padding-right: 24px;
+}
+.text{
+    width: 725px;
+    font-size:24px;
+    font-family: 'CircularStd-Book';
+}
+.useless{
+    padding-left: 64px;
+    padding-right: 0px;
+    padding-top:45px;
+    padding-bottom: 45px;
+    width:343px;
+}
+.price{
+    padding-bottom: 20px;
+    font-family: 'CircularStd-Book';
+}
+.gbutton{
+    height:73px;
+    width:100%;
+    border:3px solid;
+    background-color: rgb(255,220,1);
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size:28px;
+}
+.endoffer{
+    padding-top:20px;
+    font-size:18px;
+    padding-bottom:64px;
+    font-family: 'CircularStd-Book';
+}
+.time{
+    height:67px;
+    display: flex;
+    padding-bottom: 64px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.image{
+    width:67px;
+    padding-right:72px ;
+}
+.location{
+    padding-top:64px;
+    height:64px;
+    display: flex;
+    padding-bottom: 72px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.location img{
+    padding-right:20px;
+}
+.posted{
+    height:101px;
+    width:249px;
+    font-size:24px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.posted img{
+    padding-right:12px ;
+}
+.name{
+    padding-top:16px;
+    height:60px;
+    width:249px;
+    display: flex;
+}
+.rating{
+    padding-top:28px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.rating .row{
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+.rating .num{
+    font-family: 'CircularStd-Book';
+}
